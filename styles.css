@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(207, 205, 205);
+}
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+}
+.timings{
+    background-color: white;
+    padding:20px;
+}
+#submit{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+#activeTimers {
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.timer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stop-timer {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
